@@ -1,4 +1,4 @@
-package br.com.bgdo.citiesapi.staties;
+package br.com.bgdo.citiesapi.states;
 
 import br.com.bgdo.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;

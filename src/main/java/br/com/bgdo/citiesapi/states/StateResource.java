@@ -1,4 +1,4 @@
-package br.com.bgdo.citiesapi.staties;
+package br.com.bgdo.citiesapi.states;
 
 import java.util.List;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/staties")
+@RequestMapping("/states")
 public class StateResource {
 
     private final StateRepository repository;
@@ -16,7 +16,7 @@ public class StateResource {
     }
 
     @GetMapping
-    public List<State> staties() {
+    public List<State> states() {
         return repository.findAll();
     }
 }
