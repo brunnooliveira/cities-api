@@ -1,7 +1,5 @@
-package br.com.bgdo.citiesapi;
+package br.com.bgdo.citiesapi.countries;
 
-import br.com.bgdo.citiesapi.countries.Country;
-import br.com.bgdo.citiesapi.repository.CountryRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

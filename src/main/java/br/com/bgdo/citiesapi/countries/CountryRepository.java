@@ -1,6 +1,5 @@
-package br.com.bgdo.citiesapi.repository;
+package br.com.bgdo.citiesapi.countries;
 
-import br.com.bgdo.citiesapi.countries.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CountryRepository extends JpaRepository<Country, Long> {
